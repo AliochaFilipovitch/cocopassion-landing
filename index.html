@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>New Age - Start Bootstrap Theme</title>
+  <title>Cocopassion</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,6 +26,9 @@
   <!-- Custom styles for this template -->
   <link href="css/new-age.min.css" rel="stylesheet">
 
+  <!-- rangeslider.js-2.3.0 CSS-->
+  <link rel="stylesheet" href="rangeslider.js-2.3.0/rangeslider.css">
+
 </head>
 
 <body id="page-top">
@@ -33,7 +36,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="img/logo_vert.png" width="90" height="90"> Cocopassion</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -41,13 +44,13 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#download">Download</a>
+            <a class="nav-link js-scroll-trigger" href="#download">Solution</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#features">Features</a>
+            <a class="nav-link js-scroll-trigger" href="#features">Fonctionnalités</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="#contact">Contribution</a>
           </li>
         </ul>
       </div>
@@ -57,26 +60,17 @@
   <header class="masthead">
     <div class="container h-100">
       <div class="row h-100">
-        <div class="col-lg-7 my-auto">
+        <div class="col-lg-5 my-auto">
           <div class="header-content mx-auto">
-            <h1 class="mb-5">New Age is an app landing page that will help you beautifully showcase your new mobile app, or anything else!</h1>
-            <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a>
+            <h2 class="mb-5">Comment encourager les initiatives de qualite de vie au travail et renforcer le relationnel entre les agents de la fonction publique?</h2>
+            <h2 class="mb-5">La plateforme en ligne Cocopassion permet de créer des moments de partage entre collègues.</h2>
+            <a href="https://cocopassion.typeform.com/to/oUAqba" class="btn btn-outline btn-xl js-scroll-trigger" target="_blank">Demander une installation</a>
           </div>
         </div>
-        <div class="col-lg-5 my-auto">
-          <div class="device-container">
-            <div class="device-mockup iphone6_plus portrait white">
-              <div class="device">
-                <div class="screen">
-                  <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                  <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
-                </div>
-                <div class="button">
-                  <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="col-lg-7 my-auto">
+          <div class="embed-responsive embed-responsive-16by9">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bdUGlF4PyGs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>          </div>
+          <p>Regardez le Pitch pour en savoir plus</p>
         </div>
       </div>
     </div>
@@ -85,12 +79,39 @@
   <section class="download bg-primary text-center" id="download">
     <div class="container">
       <div class="row">
-        <div class="col-md-8 mx-auto">
-          <h2 class="section-heading">Discover what all the buzz is about!</h2>
-          <p>Our app is available on any mobile device! Download now to get started!</p>
+        <div class="col-md-12 mx-auto">
+          <h2 class="section-heading">Ce que les agents proposent (*)</h2><br><br><br>
+            <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <h3>"Encourager les initiatives de qualité de vie au travail<br>qui permettent aux agents d'échanger<br>sur les sujets autres que strictement professionnels"</h3>
+                </div>
+                <div class="carousel-item">
+                  <h3>"Renforcer le relationnel en déjeunant tous ensemble à l'extérieur<br>(restaurant, pique-nique...)"<br><br></h3>
+                </div>
+                <div class="carousel-item">
+                  <h3>"Il faudrait avoir plus d'intéractions avec les gens du bâtiment<br>avec lesquels je ne travaille pas<br>et qui ne font pas partie de mon service"</h3>
+                </div>
+                <div class="carousel-item">
+                  <h3>"Aménager des moments conviviaux<br>pour renforcer le fameux <em>team building</em>"<br><br></h3>
+                </div>
+                <div class="carousel-item">
+                  <h3>"Des moments plus ludiques seraient bienvenus<br>(faire du sport, ou autre loisir, sur le temps de midi par exemple)"<br><br></h3>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          <br><p><small>(*) Sondage réalisé par <em><a href="" style="color: black;">Bloomin</a></em> sur 800 agents (été 2018)</small></p>
+
           <div class="badges">
-            <a class="badge-link" href="#"><img src="img/google-play-badge.svg" alt=""></a>
-            <a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a>
+            <a href="https://aliochafilipovitch.github.io/cocopassion-simple-front/" class="btn btn-outline btn-xl js-scroll-trigger" target="_blank">Cocopassion en action ></a>
           </div>
         </div>
       </div>
@@ -100,8 +121,8 @@
   <section class="features" id="features">
     <div class="container">
       <div class="section-heading text-center">
-        <h2>Unlimited Features, Unlimited Fun</h2>
-        <p class="text-muted">Check out what you can do with this app theme!</p>
+        <h2>Fonctionnalités infinies, pour un fun infini</h2>
+        <p class="text-muted">Regardez ce qu'il est possible de faire avec Cocopassion!</p>
         <hr>
       </div>
       <div class="row">
@@ -111,7 +132,7 @@
               <div class="device">
                 <div class="screen">
                   <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                  <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
+                  <img src="img/screenshot.png" class="img-fluid" alt="">
                 </div>
                 <div class="button">
                   <!-- You can hook the "home button" to some JavaScript events or just remove it -->
@@ -126,15 +147,15 @@
               <div class="col-lg-6">
                 <div class="feature-item">
                   <i class="icon-screen-smartphone text-primary"></i>
-                  <h3>Device Mockups</h3>
-                  <p class="text-muted">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+                  <h3>Responsive</h3>
+                  <p class="text-muted">Notre solution s'adapte à tous les écrans. <span class="badge badge-success">bientôt</span></p>
                 </div>
               </div>
               <div class="col-lg-6">
                 <div class="feature-item">
                   <i class="icon-camera text-primary"></i>
-                  <h3>Flexible Use</h3>
-                  <p class="text-muted">Put an image, video, animation, or anything else in the screen!</p>
+                  <h3>Assos</h3>
+                  <p class="text-muted">Mettez en lumière vos associations du personnel! <span class="badge badge-success">bientôt</span></p>
                 </div>
               </div>
             </div>
@@ -142,15 +163,15 @@
               <div class="col-lg-6">
                 <div class="feature-item">
                   <i class="icon-present text-primary"></i>
-                  <h3>Free to Use</h3>
-                  <p class="text-muted">As always, this theme is free to download and use for any purpose!</p>
+                  <h3>30€/mois</h3>
+                  <p class="text-muted">Coût pour l'hébergement privé de votre plateforme Cocopassion. C'est tout.</p>
                 </div>
               </div>
               <div class="col-lg-6">
                 <div class="feature-item">
-                  <i class="icon-lock-open text-primary"></i>
-                  <h3>Open Source</h3>
-                  <p class="text-muted">Since this theme is MIT licensed, you can use it commercially!</p>
+                  <i class="icon-lock text-primary"></i>
+                  <h3>RGPD</h3>
+                  <p class="text-muted">Cocopassion est conforme au RGPD. Un seul clic suffit à supprimer son compte et ses données personnelles associées.</p>
                 </div>
               </div>
             </div>
@@ -163,8 +184,8 @@
   <section class="cta">
     <div class="cta-content">
       <div class="container">
-        <h2>Stop waiting.<br>Start building.</h2>
-        <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a>
+        <h2>Uniquement accessible par les agents de votre structure administrative</h2>
+        <a href="https://cocopassion.typeform.com/to/oUAqba" class="btn btn-outline btn-xl js-scroll-trigger" target="_blank">Demander une installation</a>
       </div>
     </div>
     <div class="overlay"></div>
@@ -172,38 +193,43 @@
 
   <section class="contact bg-primary" id="contact">
     <div class="container">
-      <h2>We
-        <i class="fas fa-heart"></i>
-        new friends!</h2>
-      <ul class="list-inline list-social">
-        <li class="list-inline-item social-twitter">
-          <a href="#">
-            <i class="fab fa-twitter"></i>
-          </a>
-        </li>
-        <li class="list-inline-item social-facebook">
-          <a href="#">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-        </li>
-        <li class="list-inline-item social-google-plus">
-          <a href="#">
-            <i class="fab fa-google-plus-g"></i>
-          </a>
-        </li>
-      </ul>
+      <h2>En contribuant à Cocopassion, tu nous permets d'aider plein d'administrations à devenir géniales!</h2>
+      <h4>Choisis un montant pour ta contribution, à partir de... 0€ ;)</h4><br>
+      <a class="btn btn-outline-success btn-lg" href="https://www.paypal.me/cocopassionapp" role="button" target="_blank">0€</a>
+      <a class="btn btn-outline-success btn-lg" href="https://www.paypal.me/cocopassionapp/5" role="button" target="_blank">5€</a>
+      <a class="btn btn-outline-success btn-lg" href="https://www.paypal.me/cocopassionapp/10" role="button" target="_blank">10€</a>
+      <a class="btn btn-outline-success btn-lg" href="https://www.paypal.me/cocopassionapp/20" role="button" target="_blank">20€</a>
+      <a class="btn btn-outline-success btn-lg" href="https://www.paypal.me/cocopassionapp/50" role="button" target="_blank">50€</a>
+      <a class="btn btn-outline-success btn-lg" href="https://www.paypal.me/cocopassionapp/100" role="button" target="_blank">100€</a>
+
+      <br><br><br><br>
+    
+    <div style="margin-left: 30%;margin-right: 30%; text-align: left; background-color: lightgrey; padding: 2%;">
+      <p>Objectif actuel :<br><strong>82€ / 3 000€</strong></p>
+
+    <div class="progress">
+      <div class="progress-bar bg-danger" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="10"></div>
     </div>
-  </section>
+    <br>
+    <p>Avec 3000€, on engage une nouvelle personne dans l’équipe pour accélérer le développment de la plateforme. On a plein d’idées en tête pour améliorer l’expérience Cocopassion, mais il nous faut de la force de frappe au niveau du code. Et qui sait, cette personne, c’est peut-être toi 😉</p>
+    </div>
+        
+  </div>
+</section>
 
   <footer>
     <div class="container">
-      <p>&copy; Your Website 2019. All Rights Reserved.</p>
+      <h2>Nous rejoindre sur <a href="https://twitter.com/CoCoPassionTwit" target="_blank">Twitter <i class="fab fa-twitter"></i></a></h2>
+      <p>&copy; Cocopassion 2019. Tous droits réservés.</p>
       <ul class="list-inline">
         <li class="list-inline-item">
-          <a href="#">Privacy</a>
+          <a href="https://www.cocopassion.co/team" target="_blank">Team</a>
         </li>
+        <!-- <li class="list-inline-item">
+          <a href="#">Privacy</a>
+        </li> -->
         <li class="list-inline-item">
-          <a href="#">Terms</a>
+          <a href="#">Terms and conditions</a>
         </li>
         <li class="list-inline-item">
           <a href="#">FAQ</a>
@@ -211,6 +237,7 @@
       </ul>
     </div>
   </footer>
+
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
@@ -221,6 +248,10 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/new-age.min.js"></script>
+
+  <!-- rangeslider.js-2.3.0 -->
+  <script src="rangeslider.js-2.3.0/rangeslider.js"></script>
+  <script src="rangeslider.js-2.3.0/rangeslider.min.js"></script>
 
 </body>
 
